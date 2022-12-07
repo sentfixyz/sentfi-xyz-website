@@ -45,12 +45,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
+
   <!-- AOS Library -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
   <!-- Scripts -->
   <script src="./assets/js/navbar.js" defer></script>
   <script src="./assets/js/faviconChange.js" defer></script>
+  <script src="./assets/js/page-reveal.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-56BGZFVWJM"></script>
@@ -66,6 +70,15 @@
 </head>
 
 <body>
+  <div class="pre-load">
+    <div class="pre-load-logo">
+      <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M35.9534 75.1801L21.7072 90.6802L50.9874 115.481C65.6783 127.925 88.13 126.578 101.093 112.475C113.323 99.1694 112.766 79.2322 100.325 66.5703L91.3822 58.8033L88.6446 56.4843L88.6747 56.4518L84.0683 52.4503L83.9863 52.5391L68.6808 39.5745L43.2364 67.2571L34.1419 59.5536C21.8997 49.1838 20.7299 31.2233 31.5322 19.4706C42.3345 7.71855 61.0442 6.59555 73.2872 16.9653L97.6872 37.6333L87.4025 48.8227L92.0096 52.8243L106.26 37.3199L76.9794 12.5189C62.2885 0.0750158 39.8368 1.42187 26.8739 15.5253C13.911 29.628 15.3149 51.1807 30.0058 63.6245L39.3222 71.5158L39.2876 71.5526L43.9263 75.5202L43.9805 75.461L59.286 88.4255L84.7304 60.743L93.8249 68.4465C106.068 78.8162 107.237 96.7768 96.4346 108.53C85.6323 120.282 66.9227 121.405 54.6805 111.035L30.2796 90.3668L40.5921 79.1477L35.9534 75.1801ZM80.0721 56.7978L58.5428 80.2209L47.8947 71.2023L69.4248 47.7792L80.0721 56.7978Z" fill="#88E900"/>
+        </svg>
+        
+    </div>
+  </div>
+  
   <header>
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
