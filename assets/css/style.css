@@ -878,7 +878,7 @@ footer a {
 
 @media (max-width:480px) {
   nav.navbar {
-    padding: .5rem .6rem !important
+    padding: .5rem .75rem !important
   }
 
   img.nav-logo {
@@ -1043,11 +1043,10 @@ img.footer-logo {
   .hero-images,
   .hero-text h1 {
     max-width: 500px;
-    margin: 0
   }
 
-  .features-section .features-title,
-  .hero-section {
+  .features-section .features-title
+   {
     text-align: left
   }
 
@@ -1057,10 +1056,6 @@ img.footer-logo {
 
   .hero-text h1 {
     font-size: 2rem
-  }
-
-  .hero-text p {
-    margin: 0
   }
 
   .hero-bottom-blur,
@@ -1119,7 +1114,7 @@ img.footer-logo {
 
 @media screen and (max-width:576px) {
   .hero-section {
-    margin-top: 2.5rem
+    margin-top: 3.5rem
   }
 
   .hero-text h1 {
