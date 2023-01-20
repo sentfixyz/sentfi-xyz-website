@@ -1162,15 +1162,9 @@ img.footer-logo {
 }
 
 .coming-soon p {
-  font-size: 1rem;
+  font-size: clamp(1.25rem, 2vw, 2rem);
   font-weight: 500;
   text-align: center
-}
-
-.coming-soon img {
-  width: auto;
-  max-width: 100%;
-  height: auto
 }
 
 .pre-load {
@@ -1284,3 +1278,55 @@ img.footer-logo {
   width: 100%;
   height: 100%;
 }
+
+  .st0 {
+    fill: #ffffff;
+  }
+
+  .st1 {
+    fill: #6cdd6c;
+  }
+
+  .st2 {
+    fill: #50aa50;
+  }
+
+  .st3 {
+    fill: #106797;
+  }
+
+  .st4 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #a3d5e9;
+  }
+
+  .st5 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #106797;
+  }
+
+  .st6 {
+    fill: #a3d5e9;
+  }
+
+  .st7 {
+    fill: #405b91;
+  }
+
+  .st8 {
+    fill: #b6d0fb;
+  }
+
+  .st9 {
+    fill: #8ab436;
+  }
+
+  .st10 {
+    fill: #c1e9f4;
+  }
+
+  .st11 {
+    fill: #415b91;
+  }
