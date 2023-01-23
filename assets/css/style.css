@@ -255,7 +255,6 @@ nav.navbar {
 .hero-bg,
 nav.navbar {
   left: 0;
-  width: 100%;
   top: 0
 }
 
@@ -279,6 +278,7 @@ nav.navbar {
   justify-content: space-between;
   padding: 2rem 3.5rem;
   height: auto;
+  width: 100vw;
   z-index: 3;
   background: 0 0;
   border-bottom: 1px solid rgba(255, 255, 255, .14);
